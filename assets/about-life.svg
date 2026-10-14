@@ -57,180 +57,180 @@
   <rect width="858" height="418" x="1" y="1" rx="15" fill="none" stroke="url(#about-border-grad)" stroke-width="1.2"/>
 
   <!-- Section Header -->
-  <g transform="translate(50, 42)">
+  <g transform="translate(40, 42)">
     <text x="0" y="0" class="about-font-mono" font-size="12" fill="#ff354f" letter-spacing="1.5">01 // SPECIALIZATION &amp; FOCUS</text>
     <text x="0" y="26" class="about-font-display" font-size="24" fill="#f0f4fc">Architectural Capabilities &amp; Engineering Pillars</text>
   </g>
 
-  <!-- Left Column: Core Technical Capabilities (Width 360) -->
-  <g transform="translate(50, 100)">
-    <rect width="360" height="280" rx="12" fill="url(#about-card-grad)" stroke="#247bff" stroke-opacity="0.25" stroke-width="1"/>
+  <!-- Left Column: Core Technical Capabilities (x=40, width=380, height=285) -->
+  <g transform="translate(40, 100)">
+    <rect width="380" height="285" rx="12" fill="url(#about-card-grad)" stroke="#247bff" stroke-opacity="0.25" stroke-width="1"/>
     
-    <g transform="translate(20, 26)">
+    <g transform="translate(22, 24)">
       <text x="0" y="0" class="about-font-mono" font-size="11" fill="#38bdf8" letter-spacing="1">ENGINEERING CAPABILITIES</text>
       
       <!-- Capability 1 -->
-      <g transform="translate(0, 22)">
-        <circle cx="6" cy="6" r="3" fill="#247bff"/>
+      <g transform="translate(0, 20)">
+        <circle cx="6" cy="6" r="3.5" fill="#247bff"/>
         <text x="18" y="9" class="about-font-display" font-size="14" fill="#f0f4fc">Full-Stack MERN Architecture</text>
-        <text x="18" y="27" class="about-font-mono" font-size="11" fill="#94a3b8">Robust React frontends + scalable Node &amp; Express APIs</text>
+        <text x="18" y="26" class="about-font-mono" font-size="10.5" fill="#94a3b8">React UI, scalable Node.js &amp; Express APIs</text>
       </g>
 
       <!-- Capability 2 -->
       <g transform="translate(0, 78)">
-        <circle cx="6" cy="6" r="3" fill="#ff354f"/>
+        <circle cx="6" cy="6" r="3.5" fill="#ff354f"/>
         <text x="18" y="9" class="about-font-display" font-size="14" fill="#f0f4fc">Intelligent Systems &amp; AI Integration</text>
-        <text x="18" y="27" class="about-font-mono" font-size="11" fill="#94a3b8">Multi-agent policy checkers &amp; practical AI automation</text>
+        <text x="18" y="26" class="about-font-mono" font-size="10.5" fill="#94a3b8">Multi-agent validation &amp; AI workflow tools</text>
       </g>
 
       <!-- Capability 3 -->
-      <g transform="translate(0, 134)">
-        <circle cx="6" cy="6" r="3" fill="#38bdf8"/>
+      <g transform="translate(0, 136)">
+        <circle cx="6" cy="6" r="3.5" fill="#38bdf8"/>
         <text x="18" y="9" class="about-font-display" font-size="14" fill="#f0f4fc">Database &amp; Data Pipeline Design</text>
-        <text x="18" y="27" class="about-font-mono" font-size="11" fill="#94a3b8">Structured MongoDB schemas and Python analytical tools</text>
+        <text x="18" y="26" class="about-font-mono" font-size="10.5" fill="#94a3b8">MongoDB data modeling &amp; Python pipelines</text>
       </g>
 
       <!-- Capability 4 -->
-      <g transform="translate(0, 190)">
-        <circle cx="6" cy="6" r="3" fill="#4ade80"/>
+      <g transform="translate(0, 194)">
+        <circle cx="6" cy="6" r="3.5" fill="#4ade80"/>
         <text x="18" y="9" class="about-font-display" font-size="14" fill="#f0f4fc">Clean Code &amp; Version Discipline</text>
-        <text x="18" y="27" class="about-font-mono" font-size="11" fill="#94a3b8">Git-driven workflow, modular patterns, and audit readiness</text>
+        <text x="18" y="26" class="about-font-mono" font-size="10.5" fill="#94a3b8">Git-driven workflow, clean code &amp; testing</text>
       </g>
     </g>
   </g>
 
-  <!-- Right Column: 3-Slide Interests Carousel (Width 390) -->
-  <g transform="translate(430, 100)">
-    <rect width="380" height="280" rx="12" fill="url(#about-card-grad)" stroke="#ff354f" stroke-opacity="0.25" stroke-width="1"/>
+  <!-- Right Column: 3-Slide Interests Carousel (x=440, width=380, height=285) -->
+  <g transform="translate(440, 100)">
+    <rect width="380" height="285" rx="12" fill="url(#about-card-grad)" stroke="#ff354f" stroke-opacity="0.25" stroke-width="1"/>
 
     <!-- Segment Progress Bars (3 segments, 12s loop: 0-4s, 4-8s, 8-12s) -->
     <g transform="translate(24, 20)">
       <!-- Segment 1 -->
-      <rect x="0" y="0" width="104" height="4" rx="2" fill="#1e293b"/>
+      <rect x="0" y="0" width="102" height="4" rx="2" fill="#1e293b"/>
       <rect x="0" y="0" width="0" height="4" rx="2" fill="url(#about-progress-blue)">
-        <animate attributeName="width" values="0;104;104;0" keyTimes="0;0.33;0.98;1" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="width" values="0;102;102;0" keyTimes="0;0.33;0.98;1" dur="12s" repeatCount="indefinite" />
       </rect>
 
       <!-- Segment 2 -->
-      <rect x="114" y="0" width="104" height="4" rx="2" fill="#1e293b"/>
-      <rect x="114" y="0" width="0" height="4" rx="2" fill="url(#about-progress-blue)">
-        <animate attributeName="width" values="0;0;104;104;0" keyTimes="0;0.33;0.66;0.98;1" dur="12s" repeatCount="indefinite" />
+      <rect x="112" y="0" width="102" height="4" rx="2" fill="#1e293b"/>
+      <rect x="112" y="0" width="0" height="4" rx="2" fill="url(#about-progress-blue)">
+        <animate attributeName="width" values="0;0;102;102;0" keyTimes="0;0.33;0.66;0.98;1" dur="12s" repeatCount="indefinite" />
       </rect>
 
       <!-- Segment 3 -->
-      <rect x="228" y="0" width="104" height="4" rx="2" fill="#1e293b"/>
-      <rect x="228" y="0" width="0" height="4" rx="2" fill="url(#about-progress-blue)">
-        <animate attributeName="width" values="0;0;0;104;0" keyTimes="0;0.33;0.66;0.98;1" dur="12s" repeatCount="indefinite" />
+      <rect x="224" y="0" width="102" height="4" rx="2" fill="#1e293b"/>
+      <rect x="224" y="0" width="0" height="4" rx="2" fill="url(#about-progress-blue)">
+        <animate attributeName="width" values="0;0;0;102;0" keyTimes="0;0.33;0.66;0.98;1" dur="12s" repeatCount="indefinite" />
       </rect>
     </g>
 
     <!-- Carousel Header Badge -->
-    <g transform="translate(24, 42)">
-      <rect width="130" height="20" rx="4" fill="#070b16" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
-      <text x="8" y="14" class="about-font-mono" font-size="10" fill="#38bdf8">4S ACTIVE CYCLER</text>
+    <g transform="translate(24, 38)">
+      <rect width="125" height="20" rx="4" fill="#070b16" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="8" y="14" class="about-font-mono" font-size="9.5" fill="#38bdf8">4S ACTIVE CYCLER</text>
     </g>
 
     <!-- SLIDE 1 (0s to 4s) -->
-    <g transform="translate(24, 85)" opacity="1">
+    <g transform="translate(24, 80)" opacity="1">
       <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.31;0.34;0.66;0.96;0.99;1" dur="12s" repeatCount="indefinite" />
       
-      <text x="0" y="0" class="about-font-mono" font-size="11" fill="#247bff" letter-spacing="1">PILLAR 01 // CORE SPECIALIZATION</text>
-      <text x="0" y="26" class="about-font-display" font-size="18" fill="#f0f4fc">Full-Stack Web Development</text>
+      <text x="0" y="0" class="about-font-mono" font-size="10.5" fill="#247bff" letter-spacing="0.5">PILLAR 01 // CORE SPECIALIZATION</text>
+      <text x="0" y="24" class="about-font-display" font-size="16" fill="#f0f4fc">Full-Stack Web Development</text>
       
-      <text x="0" y="58" class="about-font-mono" font-size="12" fill="#cbd5e1">
-        Building high-performance, responsive user
+      <text x="0" y="52" class="about-font-mono" font-size="11" fill="#cbd5e1">
+        Building high-performance, responsive UIs
       </text>
-      <text x="0" y="78" class="about-font-mono" font-size="12" fill="#cbd5e1">
-        interfaces paired with robust Node.js and Express
+      <text x="0" y="70" class="about-font-mono" font-size="11" fill="#cbd5e1">
+        with Node.js and Express backend services
       </text>
-      <text x="0" y="98" class="about-font-mono" font-size="12" fill="#cbd5e1">
-        backends and structured MongoDB data layers.
+      <text x="0" y="88" class="about-font-mono" font-size="11" fill="#cbd5e1">
+        and structured MongoDB data layers.
       </text>
 
       <!-- Isolated Tech Pills -->
-      <g transform="translate(0, 125)">
+      <g transform="translate(0, 114)">
         <g transform="translate(0, 0)">
-          <rect width="60" height="24" rx="4" fill="#070b16" stroke="#38bdf8" stroke-width="1"/>
-          <text x="12" y="16" class="about-font-mono" font-size="11" fill="#38bdf8">React</text>
+          <rect width="58" height="24" rx="4" fill="#070b16" stroke="#38bdf8" stroke-width="1"/>
+          <text x="11" y="16" class="about-font-mono" font-size="11" fill="#38bdf8">React</text>
         </g>
-        <g transform="translate(68, 0)">
-          <rect width="70" height="24" rx="4" fill="#070b16" stroke="#4ade80" stroke-width="1"/>
-          <text x="12" y="16" class="about-font-mono" font-size="11" fill="#4ade80">Node.js</text>
+        <g transform="translate(66, 0)">
+          <rect width="68" height="24" rx="4" fill="#070b16" stroke="#4ade80" stroke-width="1"/>
+          <text x="11" y="16" class="about-font-mono" font-size="11" fill="#4ade80">Node.js</text>
         </g>
-        <g transform="translate(146, 0)">
-          <rect width="70" height="24" rx="4" fill="#070b16" stroke="#94a3b8" stroke-width="1"/>
-          <text x="12" y="16" class="about-font-mono" font-size="11" fill="#f0f4fc">Express</text>
+        <g transform="translate(142, 0)">
+          <rect width="68" height="24" rx="4" fill="#070b16" stroke="#94a3b8" stroke-width="1"/>
+          <text x="11" y="16" class="about-font-mono" font-size="11" fill="#f0f4fc">Express</text>
         </g>
-        <g transform="translate(224, 0)">
-          <rect width="75" height="24" rx="4" fill="#070b16" stroke="#22c55e" stroke-width="1"/>
+        <g transform="translate(218, 0)">
+          <rect width="74" height="24" rx="4" fill="#070b16" stroke="#22c55e" stroke-width="1"/>
           <text x="10" y="16" class="about-font-mono" font-size="11" fill="#22c55e">MongoDB</text>
         </g>
       </g>
     </g>
 
     <!-- SLIDE 2 (4s to 8s) -->
-    <g transform="translate(24, 85)" opacity="0">
+    <g transform="translate(24, 80)" opacity="0">
       <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.32;0.35;0.64;0.67;0.99;1" dur="12s" repeatCount="indefinite" />
       
-      <text x="0" y="0" class="about-font-mono" font-size="11" fill="#ff354f" letter-spacing="1">PILLAR 02 // INTELLIGENCE &amp; LOGIC</text>
-      <text x="0" y="26" class="about-font-display" font-size="18" fill="#f0f4fc">AI Engineering and Intelligent Systems</text>
+      <text x="0" y="0" class="about-font-mono" font-size="10.5" fill="#ff354f" letter-spacing="0.5">PILLAR 02 // INTELLIGENCE &amp; LOGIC</text>
+      <text x="0" y="24" class="about-font-display" font-size="16" fill="#f0f4fc">AI Engineering &amp; Automation</text>
       
-      <text x="0" y="58" class="about-font-mono" font-size="12" fill="#cbd5e1">
+      <text x="0" y="52" class="about-font-mono" font-size="11" fill="#cbd5e1">
         Designing practical AI-driven applications,
       </text>
-      <text x="0" y="78" class="about-font-mono" font-size="12" fill="#cbd5e1">
-        multi-agent software validation platforms, and
+      <text x="0" y="70" class="about-font-mono" font-size="11" fill="#cbd5e1">
+        multi-agent policy validation tools, and
       </text>
-      <text x="0" y="98" class="about-font-mono" font-size="12" fill="#cbd5e1">
+      <text x="0" y="88" class="about-font-mono" font-size="11" fill="#cbd5e1">
         automated rule conflict detection engines.
       </text>
 
-      <!-- Isolated Tech Pills with distinct coordinate offsets -->
-      <g transform="translate(0, 125)">
+      <!-- Isolated Tech Pills -->
+      <g transform="translate(0, 114)">
         <g transform="translate(0, 0)">
-          <rect width="68" height="24" rx="4" fill="#070b16" stroke="#fde047" stroke-width="1"/>
+          <rect width="65" height="24" rx="4" fill="#070b16" stroke="#fde047" stroke-width="1"/>
           <text x="10" y="16" class="about-font-mono" font-size="11" fill="#fde047">Python</text>
         </g>
-        <g transform="translate(76, 0)">
-          <rect width="110" height="24" rx="4" fill="#070b16" stroke="#ff354f" stroke-width="1"/>
+        <g transform="translate(73, 0)">
+          <rect width="100" height="24" rx="4" fill="#070b16" stroke="#ff354f" stroke-width="1"/>
           <text x="10" y="16" class="about-font-mono" font-size="11" fill="#ff354f">RuleGuard AI</text>
         </g>
-        <g transform="translate(194, 0)">
-          <rect width="105" height="24" rx="4" fill="#070b16" stroke="#38bdf8" stroke-width="1"/>
+        <g transform="translate(181, 0)">
+          <rect width="95" height="24" rx="4" fill="#070b16" stroke="#38bdf8" stroke-width="1"/>
           <text x="10" y="16" class="about-font-mono" font-size="11" fill="#38bdf8">Atlas Orbit</text>
         </g>
       </g>
     </g>
 
     <!-- SLIDE 3 (8s to 12s) -->
-    <g transform="translate(24, 85)" opacity="0">
+    <g transform="translate(24, 80)" opacity="0">
       <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.33;0.65;0.68;0.96;0.99;1" dur="12s" repeatCount="indefinite" />
       
-      <text x="0" y="0" class="about-font-mono" font-size="11" fill="#4ade80" letter-spacing="1">PILLAR 03 // COLLABORATION &amp; QUALITY</text>
-      <text x="0" y="26" class="about-font-display" font-size="18" fill="#f0f4fc">Open-Source Contribution &amp; Problem Solving</text>
+      <text x="0" y="0" class="about-font-mono" font-size="10.5" fill="#4ade80" letter-spacing="0.5">PILLAR 03 // COLLABORATION &amp; QUALITY</text>
+      <text x="0" y="24" class="about-font-display" font-size="16" fill="#f0f4fc">Open Source &amp; Engineering Craft</text>
       
-      <text x="0" y="58" class="about-font-mono" font-size="12" fill="#cbd5e1">
-        Dedicated to writing readable, maintainable code,
+      <text x="0" y="52" class="about-font-mono" font-size="11" fill="#cbd5e1">
+        Writing clean, maintainable codebases,
       </text>
-      <text x="0" y="78" class="about-font-mono" font-size="12" fill="#cbd5e1">
-        contributing to open ecosystems, and solving
+      <text x="0" y="70" class="about-font-mono" font-size="11" fill="#cbd5e1">
+        contributing to open ecosystems, and
       </text>
-      <text x="0" y="98" class="about-font-mono" font-size="12" fill="#cbd5e1">
-        complex technical challenges collaboratively.
+      <text x="0" y="88" class="about-font-mono" font-size="11" fill="#cbd5e1">
+        solving complex technical challenges.
       </text>
 
-      <!-- Isolated Tech Pills with distinct coordinate offsets -->
-      <g transform="translate(0, 125)">
+      <!-- Isolated Tech Pills -->
+      <g transform="translate(0, 114)">
         <g transform="translate(0, 0)">
-          <rect width="55" height="24" rx="4" fill="#070b16" stroke="#f97316" stroke-width="1"/>
-          <text x="14" y="16" class="about-font-mono" font-size="11" fill="#f97316">Git</text>
+          <rect width="50" height="24" rx="4" fill="#070b16" stroke="#f97316" stroke-width="1"/>
+          <text x="13" y="16" class="about-font-mono" font-size="11" fill="#f97316">Git</text>
         </g>
-        <g transform="translate(63, 0)">
-          <rect width="95" height="24" rx="4" fill="#070b16" stroke="#4ade80" stroke-width="1"/>
+        <g transform="translate(58, 0)">
+          <rect width="90" height="24" rx="4" fill="#070b16" stroke="#4ade80" stroke-width="1"/>
           <text x="10" y="16" class="about-font-mono" font-size="11" fill="#4ade80">Clean Code</text>
         </g>
-        <g transform="translate(166, 0)">
-          <rect width="140" height="24" rx="4" fill="#070b16" stroke="#38bdf8" stroke-width="1"/>
+        <g transform="translate(156, 0)">
+          <rect width="135" height="24" rx="4" fill="#070b16" stroke="#38bdf8" stroke-width="1"/>
           <text x="10" y="16" class="about-font-mono" font-size="11" fill="#38bdf8">Continuous Growth</text>
         </g>
       </g>

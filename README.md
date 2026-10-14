@@ -15,7 +15,7 @@
 
 ![Intro](./assets/hero.svg?v=3)
 
-![About](./assets/about-life.svg?v=3)
+![About](./assets/about-life.svg?v=4)
 
 ![Stack](./assets/stack.svg?v=3)
 
