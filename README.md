@@ -13,15 +13,25 @@
 
 ---
 
-![Intro](./assets/hero.svg?v=1)
+![Intro](./assets/hero.svg?v=2)
 
-![About](./assets/about-life.svg?v=1)
+![About](./assets/about-life.svg?v=2)
 
-![Stack](./assets/stack.svg?v=1)
+![Stack](./assets/stack.svg?v=2)
 
-![ID](./assets/id-dashboard.svg?v=1)
+![ID](./assets/id-dashboard.svg?v=2)
 
-![Connect](./assets/connect.svg?v=1)
+![Connect](./assets/connect.svg?v=2)
+
+<p align="center">
+  <a href="https://github.com/SrinivasaKamathB" target="_blank">
+    <img src="https://img.shields.io/badge/👉_VISIT_GITHUB_PROFILE-@SrinivasaKamathB-247bff?style=for-the-badge&logo=github&logoColor=white" height="42" alt="Visit GitHub Profile" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/srinivasa-kamath-b-118564389/" target="_blank">
+    <img src="https://img.shields.io/badge/👉_CONNECT_ON_LINKEDIN-Srinivasa_Kamath_B-ff354f?style=for-the-badge&logo=linkedin&logoColor=white" height="42" alt="Connect on LinkedIn" />
+  </a>
+</p>
 
 ---
 
@@ -36,7 +46,7 @@
 
 ## 📬 Let's Connect
 
-Direct links to verified profiles (links embedded inside SVG images are not directly clickable on GitHub):
+Direct verified links:
 
 * **GitHub**: [@SrinivasaKamathB](https://github.com/SrinivasaKamathB)
 * **LinkedIn**: [Srinivasa Kamath B](https://www.linkedin.com/in/srinivasa-kamath-b-118564389/)
