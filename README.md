@@ -13,23 +13,25 @@
 
 ---
 
-![Intro](./assets/hero.svg?v=2)
+![Intro](./assets/hero.svg?v=3)
 
-![About](./assets/about-life.svg?v=2)
+![About](./assets/about-life.svg?v=3)
 
-![Stack](./assets/stack.svg?v=2)
+![Stack](./assets/stack.svg?v=3)
 
-![ID](./assets/id-dashboard.svg?v=2)
+![ID](./assets/id-dashboard.svg?v=3)
 
-![Connect](./assets/connect.svg?v=2)
+<p align="center">
+  <img src="./assets/connect-header.svg?v=3" width="860" alt="Connect &amp; Start a Conversation" />
+</p>
 
 <p align="center">
   <a href="https://github.com/SrinivasaKamathB" target="_blank">
-    <img src="https://img.shields.io/badge/👉_VISIT_GITHUB_PROFILE-@SrinivasaKamathB-247bff?style=for-the-badge&logo=github&logoColor=white" height="42" alt="Visit GitHub Profile" />
+    <img src="./assets/card-github.svg?v=3" width="418" alt="GitHub Profile - @SrinivasaKamathB" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/srinivasa-kamath-b-118564389/" target="_blank">
-    <img src="https://img.shields.io/badge/👉_CONNECT_ON_LINKEDIN-Srinivasa_Kamath_B-ff354f?style=for-the-badge&logo=linkedin&logoColor=white" height="42" alt="Connect on LinkedIn" />
+    <img src="./assets/card-linkedin.svg?v=3" width="418" alt="LinkedIn Network - Srinivasa Kamath B" />
   </a>
 </p>
 
